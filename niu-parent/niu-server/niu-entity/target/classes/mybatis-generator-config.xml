@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" 
+"http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+    <context id="prod">
+        <!-- RowBounds pagination -->
+        <plugin type="org.mybatis.generator.plugins.RowBoundsPlugin" />
+        <plugin type="org.mybatis.generator.plugins.CaseInsensitiveLikePlugin" />
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin" />
+
+        <commentGenerator>
+            <property name="suppressDate" value="true" />
+            <property name="suppressAllComments" value="false" />
+        </commentGenerator>
+
+        <!-- jdbc连接 -->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://172.16.7.96:3906/moumou_app" userId="develop" password="Develop_mysql!" />
+
+        <javaModelGenerator targetPackage="com.mouchina.entity.pojo.sys" targetProject="src/main/java">
+            <!-- 是否针对string类型的字段在set的时候进行trim调用 -->
+            <property name="trimStrings" value="true" />
+            <property name="javaFileEncoding" value="UTF-8" />  
+            <!-- 是否去除自动生成的注释 true：是 ： false:否 -->  
+            <property name="suppressAllComments" value="true" />  
+            <property name="suppressDate" value="true" />
+        </javaModelGenerator>
+        <sqlMapGenerator targetPackage="com.mouchina.dao.sys" targetProject="../niu-dao/src/main/java" />
+        <javaClientGenerator targetPackage="com.mouchina.dao.sys" targetProject="../niu-dao/src/main/java" type="XMLMAPPER" />
+        <table tableName="tb_sys_recharge_config" domainObjectName="SysRechargeConfig">
+        </table>
+    </context>
+</generatorConfiguration>

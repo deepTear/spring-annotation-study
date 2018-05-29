@@ -1,0 +1,20 @@
+2018-05-10 15:32:21  INFO [main](com.mouchina.web.base.utils.WeixinPayUtils:160) - 统一下单响应结果<xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx11062cf326bb09bb]]></appid>
+<mch_id><![CDATA[1315715001]]></mch_id>
+<nonce_str><![CDATA[DJgv6pi793WZTkIA]]></nonce_str>
+<sign><![CDATA[5B3758F1EEAA1E8BEF9A193B1BA4DA49]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx10153211066248b84a13da1a2039348373]]></prepay_id>
+<trade_type><![CDATA[APP]]></trade_type>
+</xml>
+2018-05-10 15:46:57  INFO [main](com.mouchina.web.base.utils.WeixinPayUtils:160) - 统一下单响应结果<xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx11062cf326bb09bb]]></appid>
+<mch_id><![CDATA[1315715001]]></mch_id>
+<nonce_str><![CDATA[dFkggpSavqtIMo3M]]></nonce_str>
+<sign><![CDATA[A98249012588F1FCED9A121B077EE7B9]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx101546550363562957899e1d1950622410]]></prepay_id>
+<trade_type><![CDATA[APP]]></trade_type>
+</xml>

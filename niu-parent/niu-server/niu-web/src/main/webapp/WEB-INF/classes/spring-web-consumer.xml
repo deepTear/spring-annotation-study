@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans        
+    http://www.springframework.org/schema/beans/spring-beans.xsd        
+    http://code.alibabatech.com/schema/dubbo        
+    http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+	<!-- 消费方应用名，用于计算依赖关系，不是匹配条件，不要与提供方一样 -->
+	<dubbo:application name="niuniu-web-consumer" />
+	<!-- 使用multicast广播注册中心暴露发现服务地址 -->
+	<!-- <dubbo:registry address="multicast://224.5.6.7:1234" /> -->
+	<dubbo:registry address="zookeeper://10.105.241.119:2281" />
+
+	<dubbo:reference id="userService"
+		interface="com.mouchina.server.api.user.UserInfoService" />
+	<dubbo:reference id="userRelationService"
+		interface="com.mouchina.server.api.user.UserRelationService" />
+	<dubbo:reference id="userTopicService"
+		interface="com.mouchina.server.api.user.UserTopicService" />
+	<dubbo:reference id="sysRechargeConfigService"
+		interface="com.mouchina.server.api.sys.SysRechargeConfigService"/>
+	<dubbo:reference id="sysDataService" 
+		interface="com.mouchina.server.api.sys.SysDataService"/>
+	<dubbo:reference id="orderPayService"
+		interface="com.mouchina.server.api.order.OrderPayService"/>
+	<dubbo:reference id="orderRecordService"
+		interface="com.mouchina.server.api.order.OrderRecordService"/>
+</beans>

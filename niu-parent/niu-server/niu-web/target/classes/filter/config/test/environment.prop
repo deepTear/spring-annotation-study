@@ -1,0 +1,10 @@
+base.resource.url=https://pic.mouchina.com
+
+
+#微信，支付宝支付完成后回调地址
+weixinpay.notify.url=https://newtest.mouchina.com/notify/alipay_notify
+alipay.notify.url=https://newtest.mouchina.com/notify/alipay_notify
+
+
+#测试模式
+test.model=true
