@@ -47,7 +47,7 @@
 		<jmagick.version>6.4.0</jmagick.version>
 		<xml-apis.version>2.0.2</xml-apis.version>
 		<jackson-core.version>2.6.1</jackson-core.version>
-		<jackson-databind.version>2.4.3</jackson-databind.version>
+		<jackson-databind.version>2.9.10.7</jackson-databind.version>
 		<jackson-annotations.version>2.4.3</jackson-annotations.version>
 		<uedit-json.version>1.0.0</uedit-json.version>
 		<jaxen.version>1.1.6</jaxen.version>
