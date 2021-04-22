@@ -34,7 +34,7 @@
 		<slf4j-log4j12.version>1.7.7</slf4j-log4j12.version>
 		<dom4j.version>1.6.1</dom4j.version>
 		<mongo-java-driver.version>2.12.3</mongo-java-driver.version>
-		<mybatis.version>3.3.0</mybatis.version>
+		<mybatis.version>3.5.6</mybatis.version>
 		<commons-lang.version>2.6</commons-lang.version>
 		<jmagick.version>6.6.9</jmagick.version>
 		<jedis.version>2.6.0</jedis.version>
