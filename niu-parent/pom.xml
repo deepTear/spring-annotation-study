@@ -38,7 +38,7 @@
 		<commons-lang.version>2.6</commons-lang.version>
 		<jmagick.version>6.6.9</jmagick.version>
 		<jedis.version>2.6.0</jedis.version>
-		<spring-security.version>4.0.3.RELEASE</spring-security.version>
+		<spring-security.version>5.2.10.RELEASE</spring-security.version>
 		<cas-client.version>3.1.10</cas-client.version>
 		<zxing.core.version>3.1.0</zxing.core.version>
 		<commons-httpclient.version>3.1</commons-httpclient.version>
