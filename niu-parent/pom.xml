@@ -55,7 +55,7 @@
 		<druid.version>1.0.5</druid.version>
 		<dubbo.version>2.5.3</dubbo.version>
 		<zkclient.version>0.5</zkclient.version>
-		<logback.version>1.0.7</logback.version>
+		<logback.version>1.2.0</logback.version>
 		<com.google.guava.version>16.0</com.google.guava.version>
 		<jsoup.version>1.8.3</jsoup.version>
 		<fastjson.version>1.2.4</fastjson.version>
