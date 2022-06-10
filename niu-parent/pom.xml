@@ -53,7 +53,7 @@
 		<jaxen.version>1.1.6</jaxen.version>
 		<commons-dbcp2.version>2.1</commons-dbcp2.version>
 		<druid.version>1.0.5</druid.version>
-		<dubbo.version>2.5.3</dubbo.version>
+		<dubbo.version>2.6.12</dubbo.version>
 		<zkclient.version>0.5</zkclient.version>
 		<logback.version>1.0.7</logback.version>
 		<com.google.guava.version>16.0</com.google.guava.version>
